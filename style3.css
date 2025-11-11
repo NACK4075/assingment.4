@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 244, 247);
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(233, 9, 9);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.product-card{
+    flex: [grow] [shink] [basis];
+    flex: 1 1 200px;
+
+
+    min-height: 100px;
+    background-color: #09a1e7;
+    border: 1px solid #7c17e0;
+    border-radius:5px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
